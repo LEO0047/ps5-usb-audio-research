@@ -1,0 +1,3 @@
+request: standard IN GET_DESCRIPTOR(HID_REPORT), interface=0, requested=317 bytes
+safety: no interface claim, no driver detach, no vendor request, no OUT transfer
+received: 317 bytes

@@ -1,0 +1,1 @@
+Darwin LeodeMBP 27.0.0 Darwin Kernel Version 27.0.0: Tue Aug 11 22:18:52 PDT 2026; root:xnu-13432.1.9~3/RELEASE_ARM64_T6000 arm64

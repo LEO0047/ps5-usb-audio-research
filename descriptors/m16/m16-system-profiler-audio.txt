@@ -1,0 +1,49 @@
+Audio:
+
+    Devices:
+
+        LEO’s 15 Pro麥克風:
+
+          Input Channels: 1
+          Manufacturer: Apple Inc.
+          Current SampleRate: 48000
+          Transport: Unknown
+          Input Source: Default
+
+        EDIFIER M16 Pro:
+
+          Default Output Device: Yes
+          Default System Output Device: Yes
+          Manufacturer: EDIFIER
+          Output Channels: 2
+          Current SampleRate: 48000
+          Transport: USB
+          Output Source: Default
+
+        BlackHole 2ch:
+
+          Input Channels: 2
+          Manufacturer: Existential Audio Inc.
+          Output Channels: 2
+          Current SampleRate: 48000
+          Transport: Virtual
+          Input Source: Default
+          Output Source: Default
+
+        MacBook Pro的麥克風:
+
+          Default Input Device: Yes
+          Input Channels: 1
+          Manufacturer: Apple Inc.
+          Current SampleRate: 48000
+          Transport: Built-in
+          Input Source: MacBook Pro的麥克風
+
+        MacBook Pro的揚聲器:
+
+          Manufacturer: Apple Inc.
+          Output Channels: 2
+          Current SampleRate: 48000
+          Transport: Built-in
+          Output Source: MacBook Pro的揚聲器
+

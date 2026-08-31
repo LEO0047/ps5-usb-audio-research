@@ -1,0 +1,8 @@
+Services:
+VendorID ProductID LocationID UsagePage Usage RegistryID  Transport Class                         Product                            UserClass Built-In 
+0x5ac    0x342     0x33       1         6     0x100000ab1 SPI       AppleHIDKeyboardEventDriverV2 Apple Internal Keyboard / Trackpad (null)    1        
+
+Devices:
+VendorID ProductID LocationID UsagePage Usage RegistryID  Transport Class                      Product                            UserClass Built-In 
+0x5ac    0x342     0x33       1         6     0x100000aaa SPI       AppleHIDTransportHIDDevice Apple Internal Keyboard / Trackpad (null)    1        
+

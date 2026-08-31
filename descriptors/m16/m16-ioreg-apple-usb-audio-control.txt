@@ -1,0 +1,16 @@
++-o AppleUSBAudioControlNub  <class AppleUSBAudioControlNub, id 0x100032afb, registered, matched, active, busy 0 (1 ms), retain 5>
+    {
+      "IOProbeScore" = 50000
+      "CFBundleIdentifier" = "com.apple.driver.AppleUSBAudio"
+      "IOMatchDefer" = Yes
+      "IOClass" = "AppleUSBAudioControlNub"
+      "IOPersonalityPublisher" = "com.apple.driver.AppleUSBAudio"
+      "IOProviderClass" = "IOUSBHostInterface"
+      "bInterfaceClass" = 1
+      "CFBundleIdentifierKernel" = "com.apple.driver.AppleUSBAudio"
+      "bInterfaceSubClass" = 1
+      "IOMatchedAtBoot" = Yes
+      "IOMatchCategory" = "IODefaultMatchCategory"
+    }
+    
+

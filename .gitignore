@@ -1,0 +1,7 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+
+# Keep generated local executables out; descriptor binaries remain tracked.
+tools/usb-descriptor-dump/m16-usb-dump
+tools/hid-report-fetch/m16-hid-report-fetch

@@ -1,0 +1,172 @@
+M16 USB descriptor dump (read-only)
+libusb runtime: https://libusb.info
+Bus: 2  Address: 1  Port: 1
+Negotiated speed: Full Speed (12 Mb/s)
+libusb_open: SUCCESS
+
+Device Descriptor
+  bLength: 18
+  bDescriptorType: 0x01
+  bcdUSB: 0x0110
+  bDeviceClass: 0x00
+  bDeviceSubClass: 0x00
+  bDeviceProtocol: 0x00
+  bMaxPacketSize0: 64
+  idVendor: 0x2d99 (11673)
+  idProduct: 0xa020 (40992)
+  bcdDevice: 0x0000
+  Manufacturer: EDIFIER
+  Product: EDIFIER M16 Pro
+  Serial Number: EDI00000X06
+  bNumConfigurations: 1
+
+Raw Device Descriptor (18 bytes):
+    12 01 10 01 00 00 00 40 99 2d 20 a0 00 00 01 02 
+    03 01 
+Raw complete Configuration Descriptor stream (140 bytes):
+    09 02 8c 00 03 01 00 80 32 09 04 00 00 02 03 00 
+    00 00 09 21 10 01 00 01 22 3d 01 07 05 81 03 40 
+    00 01 07 05 01 03 40 00 01 09 04 01 00 00 01 01 
+    00 00 09 24 01 00 01 28 00 01 02 0c 24 02 01 01 
+    01 00 02 03 00 00 00 09 24 03 03 01 03 00 09 00 
+    0a 24 06 09 01 01 03 00 00 00 09 04 02 00 00 01 
+    02 00 00 09 04 02 01 01 01 02 00 00 07 24 01 01 
+    01 01 00 0b 24 02 01 02 02 10 01 80 bb 00 07 05 
+    02 09 c0 00 01 07 25 01 01 01 01 00 
+
+Configuration 0
+  bLength: 9
+  bDescriptorType: 0x02
+  wTotalLength: 140
+  bNumInterfaces: 3
+  bConfigurationValue: 1
+  iConfiguration: 0
+  bmAttributes: 0x80 (bus-powered)
+  bMaxPower raw: 0x32 (50 units)
+  MaxPower interpreted for USB 1.x/2.0: 100 mA
+    Configuration extra descriptors: none
+
+  Interface array index 0: 1 alternate setting(s)
+  Interface 0, Alternate Setting 0
+    bLength: 9
+    bNumEndpoints: 2
+    bInterfaceClass: 0x03
+    bInterfaceSubClass: 0x00
+    bInterfaceProtocol: 0x00
+    iInterface: 0
+    Interface extra descriptors total: 9 bytes
+    Interface raw descriptor @ extra+0, type 0x21 (9 bytes):
+    09 21 10 01 00 01 22 3d 01 
+    Endpoint 0
+      bEndpointAddress: 0x81 (EP 1, IN/device-to-host)
+      bmAttributes: 0x03
+      Transfer type: Interrupt
+      wMaxPacketSize: 0x0040 (64 raw; 64-byte payload)
+      bInterval: 1
+      bRefresh: 0
+      bSynchAddress: 0x00
+    Endpoint extra descriptors: none
+    Endpoint 1
+      bEndpointAddress: 0x01 (EP 1, OUT/host-to-device)
+      bmAttributes: 0x03
+      Transfer type: Interrupt
+      wMaxPacketSize: 0x0040 (64 raw; 64-byte payload)
+      bInterval: 1
+      bRefresh: 0
+      bSynchAddress: 0x00
+    Endpoint extra descriptors: none
+
+  Interface array index 1: 1 alternate setting(s)
+  Interface 1, Alternate Setting 0
+    bLength: 9
+    bNumEndpoints: 0
+    bInterfaceClass: 0x01
+    bInterfaceSubClass: 0x01
+    bInterfaceProtocol: 0x00
+    iInterface: 0
+    Interface extra descriptors total: 40 bytes
+    Interface raw descriptor @ extra+0, type 0x24 (9 bytes):
+    09 24 01 00 01 28 00 01 02 
+      AC subtype: 0x01 (HEADER)
+      bcdADC: 0x0100
+      wTotalLength: 40
+      bInCollection: 1
+      baInterfaceNr[0]: 2
+    Interface raw descriptor @ extra+9, type 0x24 (12 bytes):
+    0c 24 02 01 01 01 00 02 03 00 00 00 
+      AC subtype: 0x02 (INPUT_TERMINAL)
+      bTerminalID: 1
+      wTerminalType: 0x0101
+      bAssocTerminal: 0
+      bNrChannels: 2
+      wChannelConfig: 0x0003
+      iChannelNames: 0
+      iTerminal: 0
+    Interface raw descriptor @ extra+21, type 0x24 (9 bytes):
+    09 24 03 03 01 03 00 09 00 
+      AC subtype: 0x03 (OUTPUT_TERMINAL)
+      bTerminalID: 3
+      wTerminalType: 0x0301
+      bAssocTerminal: 0
+      bSourceID: 9
+      iTerminal: 0
+    Interface raw descriptor @ extra+30, type 0x24 (10 bytes):
+    0a 24 06 09 01 01 03 00 00 00 
+      AC subtype: 0x06 (FEATURE_UNIT)
+      bUnitID: 9
+      bSourceID: 1
+      bControlSize: 1
+      bmaControls[0]: 0x00000003
+      bmaControls[1]: 0x00000000
+      bmaControls[2]: 0x00000000
+      iFeature: 0
+
+  Interface array index 2: 2 alternate setting(s)
+  Interface 2, Alternate Setting 0
+    bLength: 9
+    bNumEndpoints: 0
+    bInterfaceClass: 0x01
+    bInterfaceSubClass: 0x02
+    bInterfaceProtocol: 0x00
+    iInterface: 0
+    Interface extra descriptors: none
+  Interface 2, Alternate Setting 1
+    bLength: 9
+    bNumEndpoints: 1
+    bInterfaceClass: 0x01
+    bInterfaceSubClass: 0x02
+    bInterfaceProtocol: 0x00
+    iInterface: 0
+    Interface extra descriptors total: 18 bytes
+    Interface raw descriptor @ extra+0, type 0x24 (7 bytes):
+    07 24 01 01 01 01 00 
+      AS subtype: 0x01 (AS_GENERAL)
+      bTerminalLink: 1
+      bDelay: 1
+      wFormatTag: 0x0001
+    Interface raw descriptor @ extra+7, type 0x24 (11 bytes):
+    0b 24 02 01 02 02 10 01 80 bb 00 
+      AS subtype: 0x02 (FORMAT_TYPE)
+      bFormatType: 0x01
+      bNrChannels: 2
+      bSubframeSize: 2
+      bBitResolution: 16
+      bSamFreqType: 1
+      tSamFreq[0]: 48000 Hz
+    Endpoint 0
+      bEndpointAddress: 0x02 (EP 2, OUT/host-to-device)
+      bmAttributes: 0x09
+      Transfer type: Isochronous
+      Synchronization type: Adaptive
+      Usage type: Data endpoint
+      wMaxPacketSize: 0x00c0 (192 raw; 192-byte payload)
+      bInterval: 1
+      bRefresh: 0
+      bSynchAddress: 0x00
+    Endpoint extra descriptors total: 7 bytes
+    Endpoint raw descriptor @ extra+0, type 0x25 (7 bytes):
+    07 25 01 01 01 01 00 
+      CS_ENDPOINT subtype: 0x01 (EP_GENERAL)
+      bmAttributes: 0x01
+      bLockDelayUnits: 1
+      wLockDelay: 1

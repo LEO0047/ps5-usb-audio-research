@@ -1,0 +1,8 @@
+Services:
+VendorID ProductID LocationID UsagePage Usage RegistryID  Transport Class                    Product         UserClass               Built-In 
+0x2d99   0xa020    0x100000   1         128   0x1000336fe USB       AppleUserHIDEventService EDIFIER M16 Pro AppleUserHIDEventDriver 0        
+
+Devices:
+VendorID ProductID LocationID UsagePage Usage RegistryID  Transport Class              Product         UserClass                 Built-In 
+0x2d99   0xa020    0x100000   1         128   0x1000336f3 USB       AppleUserHIDDevice EDIFIER M16 Pro AppleUserUSBHostHIDDevice 0        
+

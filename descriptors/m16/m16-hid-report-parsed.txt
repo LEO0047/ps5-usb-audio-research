@@ -1,0 +1,207 @@
+HID report descriptor: descriptors/m16/m16-hid-report.bin
+Length: 317 bytes
+SHA-256: e746d77ff0299b06cf43c21a95526c768bc6240b1e4d438109256627ac95503e
+
+== COMPLETE ITEM-BY-ITEM DECODE ==
+@0x0000  05 01                           GLOBAL Usage Page: 0x0001 (Generic Desktop)
+@0x0002  09 80                           LOCAL  Usage: 0x0001:0080 Generic Desktop / System Control
+@0x0004  a1 01                           MAIN   Collection: Application (0x01), usage=0x0001:0080 Generic Desktop / System Control, depth=0
+@0x0006  85 01                           GLOBAL Report ID: 1
+@0x0008  19 01                           LOCAL  Usage Minimum: 0x0001:0001 Generic Desktop / Pointer
+@0x000A  29 b7                           LOCAL  Usage Maximum: 0x0001:00B7 Generic Desktop / Usage 0x00B7
+@0x000C  15 01                           GLOBAL Logical Minimum: 1
+@0x000E  26 b7 00                        GLOBAL Logical Maximum: 183
+@0x0011  95 01                           GLOBAL Report Count: 1
+@0x0013  75 08                           GLOBAL Report Size: 8 bits
+@0x0015  81 00                           MAIN   Input: flags=0x0 (Data, Array, Absolute, No Wrap, Linear, Preferred State, No Null, Bit Field); Report ID=1, bits=0..7, size=8 x count=1, logical=1..183; usage_range=[0x0001:0001 Generic Desktop / Pointer .. 0x0001:00B7 Generic Desktop / Usage 0x00B7]
+@0x0017  c0                              MAIN   End Collection: closes Application 0x0001:0080 Generic Desktop / System Control, new_depth=0
+@0x0018  05 0c                           GLOBAL Usage Page: 0x000C (Consumer)
+@0x001A  09 01                           LOCAL  Usage: 0x000C:0001 Consumer / Consumer Control
+@0x001C  a1 01                           MAIN   Collection: Application (0x01), usage=0x000C:0001 Consumer / Consumer Control, depth=0
+@0x001E  85 02                           GLOBAL Report ID: 2
+@0x0020  19 00                           LOCAL  Usage Minimum: 0x000C:0000 Consumer / Usage 0x0000
+@0x0022  2a 14 05                        LOCAL  Usage Maximum: 0x000C:0514 Consumer / Usage 0x0514
+@0x0025  15 00                           GLOBAL Logical Minimum: 0
+@0x0027  26 14 05                        GLOBAL Logical Maximum: 1300
+@0x002A  95 01                           GLOBAL Report Count: 1
+@0x002C  75 10                           GLOBAL Report Size: 16 bits
+@0x002E  81 00                           MAIN   Input: flags=0x0 (Data, Array, Absolute, No Wrap, Linear, Preferred State, No Null, Bit Field); Report ID=2, bits=0..15, size=16 x count=1, logical=0..1300; usage_range=[0x000C:0000 Consumer / Usage 0x0000 .. 0x000C:0514 Consumer / Usage 0x0514]
+@0x0030  c0                              MAIN   End Collection: closes Application 0x000C:0001 Consumer / Consumer Control, new_depth=0
+@0x0031  05 01                           GLOBAL Usage Page: 0x0001 (Generic Desktop)
+@0x0033  09 02                           LOCAL  Usage: 0x0001:0002 Generic Desktop / Mouse
+@0x0035  a1 01                           MAIN   Collection: Application (0x01), usage=0x0001:0002 Generic Desktop / Mouse, depth=0
+@0x0037  85 03                           GLOBAL Report ID: 3
+@0x0039  09 01                           LOCAL  Usage: 0x0001:0001 Generic Desktop / Pointer
+@0x003B  a1 00                           MAIN   Collection: Physical (0x00), usage=0x0001:0001 Generic Desktop / Pointer, depth=1
+@0x003D  05 09                           GLOBAL Usage Page: 0x0009 (Button)
+@0x003F  19 01                           LOCAL  Usage Minimum: 0x0009:0001 Button / Usage 0x0001
+@0x0041  29 08                           LOCAL  Usage Maximum: 0x0009:0008 Button / Usage 0x0008
+@0x0043  15 00                           GLOBAL Logical Minimum: 0
+@0x0045  25 01                           GLOBAL Logical Maximum: 1
+@0x0047  95 08                           GLOBAL Report Count: 8
+@0x0049  75 01                           GLOBAL Report Size: 1 bits
+@0x004B  81 02                           MAIN   Input: flags=0x2 (Data, Variable, Absolute, No Wrap, Linear, Preferred State, No Null, Bit Field); Report ID=3, bits=0..7, size=1 x count=8, logical=0..1; usage_range=[0x0009:0001 Button / Usage 0x0001 .. 0x0009:0008 Button / Usage 0x0008]
+@0x004D  05 01                           GLOBAL Usage Page: 0x0001 (Generic Desktop)
+@0x004F  09 30                           LOCAL  Usage: 0x0001:0030 Generic Desktop / X
+@0x0051  09 31                           LOCAL  Usage: 0x0001:0031 Generic Desktop / Y
+@0x0053  15 81                           GLOBAL Logical Minimum: -127
+@0x0055  25 7f                           GLOBAL Logical Maximum: 127
+@0x0057  75 08                           GLOBAL Report Size: 8 bits
+@0x0059  95 02                           GLOBAL Report Count: 2
+@0x005B  81 06                           MAIN   Input: flags=0x6 (Data, Variable, Relative, No Wrap, Linear, Preferred State, No Null, Bit Field); Report ID=3, bits=8..23, size=8 x count=2, logical=-127..127; usages=[0x0001:0030 Generic Desktop / X; 0x0001:0031 Generic Desktop / Y]
+@0x005D  09 38                           LOCAL  Usage: 0x0001:0038 Generic Desktop / Wheel
+@0x005F  15 81                           GLOBAL Logical Minimum: -127
+@0x0061  25 7f                           GLOBAL Logical Maximum: 127
+@0x0063  75 08                           GLOBAL Report Size: 8 bits
+@0x0065  95 01                           GLOBAL Report Count: 1
+@0x0067  81 06                           MAIN   Input: flags=0x6 (Data, Variable, Relative, No Wrap, Linear, Preferred State, No Null, Bit Field); Report ID=3, bits=24..31, size=8 x count=1, logical=-127..127; usages=[0x0001:0038 Generic Desktop / Wheel]
+@0x0069  c0                              MAIN   End Collection: closes Physical 0x0001:0001 Generic Desktop / Pointer, new_depth=1
+@0x006A  c0                              MAIN   End Collection: closes Application 0x0001:0002 Generic Desktop / Mouse, new_depth=0
+@0x006B  05 01                           GLOBAL Usage Page: 0x0001 (Generic Desktop)
+@0x006D  09 06                           LOCAL  Usage: 0x0001:0006 Generic Desktop / Keyboard
+@0x006F  a1 01                           MAIN   Collection: Application (0x01), usage=0x0001:0006 Generic Desktop / Keyboard, depth=0
+@0x0071  85 04                           GLOBAL Report ID: 4
+@0x0073  05 07                           GLOBAL Usage Page: 0x0007 (Keyboard/Keypad)
+@0x0075  19 e0                           LOCAL  Usage Minimum: 0x0007:00E0 Keyboard/Keypad / Keyboard LeftControl
+@0x0077  29 e7                           LOCAL  Usage Maximum: 0x0007:00E7 Keyboard/Keypad / Keyboard Right GUI
+@0x0079  15 00                           GLOBAL Logical Minimum: 0
+@0x007B  25 01                           GLOBAL Logical Maximum: 1
+@0x007D  75 01                           GLOBAL Report Size: 1 bits
+@0x007F  95 08                           GLOBAL Report Count: 8
+@0x0081  81 02                           MAIN   Input: flags=0x2 (Data, Variable, Absolute, No Wrap, Linear, Preferred State, No Null, Bit Field); Report ID=4, bits=0..7, size=1 x count=8, logical=0..1; usage_range=[0x0007:00E0 Keyboard/Keypad / Keyboard LeftControl .. 0x0007:00E7 Keyboard/Keypad / Keyboard Right GUI]
+@0x0083  95 03                           GLOBAL Report Count: 3
+@0x0085  75 01                           GLOBAL Report Size: 1 bits
+@0x0087  05 08                           GLOBAL Usage Page: 0x0008 (LED)
+@0x0089  19 01                           LOCAL  Usage Minimum: 0x0008:0001 LED / Num Lock
+@0x008B  29 03                           LOCAL  Usage Maximum: 0x0008:0003 LED / Scroll Lock
+@0x008D  91 02                           MAIN   Output: flags=0x2 (Data, Variable, Absolute, No Wrap, Linear, Preferred State, No Null, Non Volatile, Bit Field); Report ID=4, bits=0..2, size=1 x count=3, logical=0..1; usage_range=[0x0008:0001 LED / Num Lock .. 0x0008:0003 LED / Scroll Lock]
+@0x008F  95 05                           GLOBAL Report Count: 5
+@0x0091  75 01                           GLOBAL Report Size: 1 bits
+@0x0093  91 01                           MAIN   Output: flags=0x1 (Constant, Array, Absolute, No Wrap, Linear, Preferred State, No Null, Non Volatile, Bit Field); Report ID=4, bits=3..7, size=1 x count=5, logical=0..1; no local usages
+@0x0095  95 06                           GLOBAL Report Count: 6
+@0x0097  75 08                           GLOBAL Report Size: 8 bits
+@0x0099  15 00                           GLOBAL Logical Minimum: 0
+@0x009B  26 ff 00                        GLOBAL Logical Maximum: 255
+@0x009E  05 07                           GLOBAL Usage Page: 0x0007 (Keyboard/Keypad)
+@0x00A0  19 00                           LOCAL  Usage Minimum: 0x0007:0000 Keyboard/Keypad / Reserved/Undefined
+@0x00A2  2a ff 00                        LOCAL  Usage Maximum: 0x0007:00FF Keyboard/Keypad / Usage 0x00FF
+@0x00A5  81 00                           MAIN   Input: flags=0x0 (Data, Array, Absolute, No Wrap, Linear, Preferred State, No Null, Bit Field); Report ID=4, bits=8..55, size=8 x count=6, logical=0..255; usage_range=[0x0007:0000 Keyboard/Keypad / Reserved/Undefined .. 0x0007:00FF Keyboard/Keypad / Usage 0x00FF]
+@0x00A7  09 00                           LOCAL  Usage: 0x0007:0000 Keyboard/Keypad / Reserved/Undefined
+@0x00A9  75 08                           GLOBAL Report Size: 8 bits
+@0x00AB  95 14                           GLOBAL Report Count: 20
+@0x00AD  b1 00                           MAIN   Feature: flags=0x0 (Data, Array, Absolute, No Wrap, Linear, Preferred State, No Null, Non Volatile, Bit Field); Report ID=4, bits=0..159, size=8 x count=20, logical=0..255; usages=[0x0007:0000 Keyboard/Keypad / Reserved/Undefined]
+@0x00AF  c0                              MAIN   End Collection: closes Application 0x0001:0006 Generic Desktop / Keyboard, new_depth=0
+@0x00B0  06 01 ff                        GLOBAL Usage Page: 0xFF01 (Vendor Defined 0xFF01)
+@0x00B3  09 00                           LOCAL  Usage: 0xFF01:0000 Vendor Defined 0xFF01 / Usage 0x0000
+@0x00B5  a1 80                           MAIN   Collection: Vendor-defined (0x80), usage=0xFF01:0000 Vendor Defined 0xFF01 / Usage 0x0000, depth=0
+@0x00B7  85 05                           GLOBAL Report ID: 5
+@0x00B9  15 00                           GLOBAL Logical Minimum: 0
+@0x00BB  26 ff 00                        GLOBAL Logical Maximum: 255
+@0x00BE  75 08                           GLOBAL Report Size: 8 bits
+@0x00C0  95 3f                           GLOBAL Report Count: 63
+@0x00C2  09 00                           LOCAL  Usage: 0xFF01:0000 Vendor Defined 0xFF01 / Usage 0x0000
+@0x00C4  81 02                           MAIN   Input: flags=0x2 (Data, Variable, Absolute, No Wrap, Linear, Preferred State, No Null, Bit Field); Report ID=5, bits=0..503, size=8 x count=63, logical=0..255; usages=[0xFF01:0000 Vendor Defined 0xFF01 / Usage 0x0000]
+@0x00C6  09 00                           LOCAL  Usage: 0xFF01:0000 Vendor Defined 0xFF01 / Usage 0x0000
+@0x00C8  91 02                           MAIN   Output: flags=0x2 (Data, Variable, Absolute, No Wrap, Linear, Preferred State, No Null, Non Volatile, Bit Field); Report ID=5, bits=0..503, size=8 x count=63, logical=0..255; usages=[0xFF01:0000 Vendor Defined 0xFF01 / Usage 0x0000]
+@0x00CA  c0                              MAIN   End Collection: closes Vendor-defined 0xFF01:0000 Vendor Defined 0xFF01 / Usage 0x0000, new_depth=0
+@0x00CB  05 0c                           GLOBAL Usage Page: 0x000C (Consumer)
+@0x00CD  09 01                           LOCAL  Usage: 0x000C:0001 Consumer / Consumer Control
+@0x00CF  a1 01                           MAIN   Collection: Application (0x01), usage=0x000C:0001 Consumer / Consumer Control, depth=0
+@0x00D1  85 06                           GLOBAL Report ID: 6
+@0x00D3  15 00                           GLOBAL Logical Minimum: 0
+@0x00D5  25 01                           GLOBAL Logical Maximum: 1
+@0x00D7  09 e9                           LOCAL  Usage: 0x000C:00E9 Consumer / Volume Increment
+@0x00D9  09 ea                           LOCAL  Usage: 0x000C:00EA Consumer / Volume Decrement
+@0x00DB  09 e2                           LOCAL  Usage: 0x000C:00E2 Consumer / Mute
+@0x00DD  09 cd                           LOCAL  Usage: 0x000C:00CD Consumer / Play/Pause
+@0x00DF  09 b5                           LOCAL  Usage: 0x000C:00B5 Consumer / Scan Next Track
+@0x00E1  09 b6                           LOCAL  Usage: 0x000C:00B6 Consumer / Scan Previous Track
+@0x00E3  09 b3                           LOCAL  Usage: 0x000C:00B3 Consumer / Fast Forward
+@0x00E5  09 b7                           LOCAL  Usage: 0x000C:00B7 Consumer / Stop
+@0x00E7  75 01                           GLOBAL Report Size: 1 bits
+@0x00E9  95 08                           GLOBAL Report Count: 8
+@0x00EB  81 42                           MAIN   Input: flags=0x42 (Data, Variable, Absolute, No Wrap, Linear, Preferred State, Null State, Bit Field); Report ID=6, bits=0..7, size=1 x count=8, logical=0..1; usages=[0x000C:00E9 Consumer / Volume Increment; 0x000C:00EA Consumer / Volume Decrement; 0x000C:00E2 Consumer / Mute; 0x000C:00CD Consumer / Play/Pause; 0x000C:00B5 Consumer / Scan Next Track; 0x000C:00B6 Consumer / Scan Previous Track; 0x000C:00B3 Consumer / Fast Forward; 0x000C:00B7 Consumer / Stop]
+@0x00ED  c0                              MAIN   End Collection: closes Application 0x000C:0001 Consumer / Consumer Control, new_depth=0
+@0x00EE  05 0b                           GLOBAL Usage Page: 0x000B (Telephony Device)
+@0x00F0  09 01                           LOCAL  Usage: 0x000B:0001 Telephony Device / Phone
+@0x00F2  a1 01                           MAIN   Collection: Application (0x01), usage=0x000B:0001 Telephony Device / Phone, depth=0
+@0x00F4  85 07                           GLOBAL Report ID: 7
+@0x00F6  15 00                           GLOBAL Logical Minimum: 0
+@0x00F8  25 01                           GLOBAL Logical Maximum: 1
+@0x00FA  09 20                           LOCAL  Usage: 0x000B:0020 Telephony Device / Hook Switch
+@0x00FC  09 21                           LOCAL  Usage: 0x000B:0021 Telephony Device / Flash
+@0x00FE  09 2f                           LOCAL  Usage: 0x000B:002F Telephony Device / Phone Mute
+@0x0100  75 01                           GLOBAL Report Size: 1 bits
+@0x0102  95 03                           GLOBAL Report Count: 3
+@0x0104  81 02                           MAIN   Input: flags=0x2 (Data, Variable, Absolute, No Wrap, Linear, Preferred State, No Null, Bit Field); Report ID=7, bits=0..2, size=1 x count=3, logical=0..1; usages=[0x000B:0020 Telephony Device / Hook Switch; 0x000B:0021 Telephony Device / Flash; 0x000B:002F Telephony Device / Phone Mute]
+@0x0106  75 05                           GLOBAL Report Size: 5 bits
+@0x0108  95 01                           GLOBAL Report Count: 1
+@0x010A  81 03                           MAIN   Input: flags=0x3 (Constant, Variable, Absolute, No Wrap, Linear, Preferred State, No Null, Bit Field); Report ID=7, bits=3..7, size=5 x count=1, logical=0..1; no local usages
+@0x010C  05 08                           GLOBAL Usage Page: 0x0008 (LED)
+@0x010E  15 00                           GLOBAL Logical Minimum: 0
+@0x0110  25 01                           GLOBAL Logical Maximum: 1
+@0x0112  09 08                           LOCAL  Usage: 0x0008:0008 LED / Do Not Disturb
+@0x0114  09 17                           LOCAL  Usage: 0x0008:0017 LED / Off-Hook
+@0x0116  09 18                           LOCAL  Usage: 0x0008:0018 LED / Ring
+@0x0118  09 19                           LOCAL  Usage: 0x0008:0019 LED / Message Waiting
+@0x011A  09 1a                           LOCAL  Usage: 0x0008:001A LED / Data Mode
+@0x011C  09 1e                           LOCAL  Usage: 0x0008:001E LED / Speaker
+@0x011E  09 1f                           LOCAL  Usage: 0x0008:001F LED / Headset
+@0x0120  09 20                           LOCAL  Usage: 0x0008:0020 LED / Hold
+@0x0122  09 21                           LOCAL  Usage: 0x0008:0021 LED / Microphone
+@0x0124  09 22                           LOCAL  Usage: 0x0008:0022 LED / Coverage
+@0x0126  09 23                           LOCAL  Usage: 0x0008:0023 LED / Night Mode
+@0x0128  09 24                           LOCAL  Usage: 0x0008:0024 LED / Send Calls
+@0x012A  09 25                           LOCAL  Usage: 0x0008:0025 LED / Call Pickup
+@0x012C  09 26                           LOCAL  Usage: 0x0008:0026 LED / Conference
+@0x012E  09 09                           LOCAL  Usage: 0x0008:0009 LED / Mute
+@0x0130  75 01                           GLOBAL Report Size: 1 bits
+@0x0132  95 0f                           GLOBAL Report Count: 15
+@0x0134  91 02                           MAIN   Output: flags=0x2 (Data, Variable, Absolute, No Wrap, Linear, Preferred State, No Null, Non Volatile, Bit Field); Report ID=7, bits=0..14, size=1 x count=15, logical=0..1; usages=[0x0008:0008 LED / Do Not Disturb; 0x0008:0017 LED / Off-Hook; 0x0008:0018 LED / Ring; 0x0008:0019 LED / Message Waiting; 0x0008:001A LED / Data Mode; 0x0008:001E LED / Speaker; 0x0008:001F LED / Headset; 0x0008:0020 LED / Hold; 0x0008:0021 LED / Microphone; 0x0008:0022 LED / Coverage; 0x0008:0023 LED / Night Mode; 0x0008:0024 LED / Send Calls; 0x0008:0025 LED / Call Pickup; 0x0008:0026 LED / Conference; 0x0008:0009 LED / Mute]
+@0x0136  75 01                           GLOBAL Report Size: 1 bits
+@0x0138  95 01                           GLOBAL Report Count: 1
+@0x013A  91 03                           MAIN   Output: flags=0x3 (Constant, Variable, Absolute, No Wrap, Linear, Preferred State, No Null, Non Volatile, Bit Field); Report ID=7, bits=15..15, size=1 x count=1, logical=0..1; no local usages
+@0x013C  c0                              MAIN   End Collection: closes Application 0x000B:0001 Telephony Device / Phone, new_depth=0
+
+== TOP-LEVEL COLLECTIONS ==
+1. offset=0x0004, type=Application (0x01), usage=0x0001:0080 Generic Desktop / System Control
+2. offset=0x001C, type=Application (0x01), usage=0x000C:0001 Consumer / Consumer Control
+3. offset=0x0035, type=Application (0x01), usage=0x0001:0002 Generic Desktop / Mouse
+4. offset=0x006F, type=Application (0x01), usage=0x0001:0006 Generic Desktop / Keyboard
+5. offset=0x00B5, type=Vendor-defined (0x80), usage=0xFF01:0000 Vendor Defined 0xFF01 / Usage 0x0000
+6. offset=0x00CF, type=Application (0x01), usage=0x000C:0001 Consumer / Consumer Control
+7. offset=0x00F2, type=Application (0x01), usage=0x000B:0001 Telephony Device / Phone
+
+== REPORT LAYOUTS ==
+Report ID 1 Input: payload=8 bits (1 bytes), wire size including Report ID=2 bytes
+Report ID 2 Input: payload=16 bits (2 bytes), wire size including Report ID=3 bytes
+Report ID 3 Input: payload=32 bits (4 bytes), wire size including Report ID=5 bytes
+Report ID 4 Input: payload=56 bits (7 bytes), wire size including Report ID=8 bytes
+Report ID 4 Output: payload=8 bits (1 bytes), wire size including Report ID=2 bytes
+Report ID 4 Feature: payload=160 bits (20 bytes), wire size including Report ID=21 bytes
+Report ID 5 Input: payload=504 bits (63 bytes), wire size including Report ID=64 bytes
+Report ID 5 Output: payload=504 bits (63 bytes), wire size including Report ID=64 bytes
+Report ID 6 Input: payload=8 bits (1 bytes), wire size including Report ID=2 bytes
+Report ID 7 Input: payload=8 bits (1 bytes), wire size including Report ID=2 bytes
+Report ID 7 Output: payload=16 bits (2 bytes), wire size including Report ID=3 bytes
+
+== MAIN DATA ITEMS ==
+offset=0x0015; Report ID=1; Input; bits=0..7; size=8x1; Data, Array, Absolute, No Wrap, Linear, Preferred State, No Null, Bit Field; collection=0x0001:0080 Generic Desktop / System Control; usage_range=[0x0001:0001 Generic Desktop / Pointer .. 0x0001:00B7 Generic Desktop / Usage 0x00B7]
+offset=0x002E; Report ID=2; Input; bits=0..15; size=16x1; Data, Array, Absolute, No Wrap, Linear, Preferred State, No Null, Bit Field; collection=0x000C:0001 Consumer / Consumer Control; usage_range=[0x000C:0000 Consumer / Usage 0x0000 .. 0x000C:0514 Consumer / Usage 0x0514]
+offset=0x004B; Report ID=3; Input; bits=0..7; size=1x8; Data, Variable, Absolute, No Wrap, Linear, Preferred State, No Null, Bit Field; collection=0x0001:0001 Generic Desktop / Pointer; usage_range=[0x0009:0001 Button / Usage 0x0001 .. 0x0009:0008 Button / Usage 0x0008]
+offset=0x005B; Report ID=3; Input; bits=8..23; size=8x2; Data, Variable, Relative, No Wrap, Linear, Preferred State, No Null, Bit Field; collection=0x0001:0001 Generic Desktop / Pointer; usages=[0x0001:0030 Generic Desktop / X; 0x0001:0031 Generic Desktop / Y]
+offset=0x0067; Report ID=3; Input; bits=24..31; size=8x1; Data, Variable, Relative, No Wrap, Linear, Preferred State, No Null, Bit Field; collection=0x0001:0001 Generic Desktop / Pointer; usages=[0x0001:0038 Generic Desktop / Wheel]
+offset=0x0081; Report ID=4; Input; bits=0..7; size=1x8; Data, Variable, Absolute, No Wrap, Linear, Preferred State, No Null, Bit Field; collection=0x0001:0006 Generic Desktop / Keyboard; usage_range=[0x0007:00E0 Keyboard/Keypad / Keyboard LeftControl .. 0x0007:00E7 Keyboard/Keypad / Keyboard Right GUI]
+offset=0x008D; Report ID=4; Output; bits=0..2; size=1x3; Data, Variable, Absolute, No Wrap, Linear, Preferred State, No Null, Non Volatile, Bit Field; collection=0x0001:0006 Generic Desktop / Keyboard; usage_range=[0x0008:0001 LED / Num Lock .. 0x0008:0003 LED / Scroll Lock]
+offset=0x0093; Report ID=4; Output; bits=3..7; size=1x5; Constant, Array, Absolute, No Wrap, Linear, Preferred State, No Null, Non Volatile, Bit Field; collection=0x0001:0006 Generic Desktop / Keyboard; no local usages
+offset=0x00A5; Report ID=4; Input; bits=8..55; size=8x6; Data, Array, Absolute, No Wrap, Linear, Preferred State, No Null, Bit Field; collection=0x0001:0006 Generic Desktop / Keyboard; usage_range=[0x0007:0000 Keyboard/Keypad / Reserved/Undefined .. 0x0007:00FF Keyboard/Keypad / Usage 0x00FF]
+offset=0x00AD; Report ID=4; Feature; bits=0..159; size=8x20; Data, Array, Absolute, No Wrap, Linear, Preferred State, No Null, Non Volatile, Bit Field; collection=0x0001:0006 Generic Desktop / Keyboard; usages=[0x0007:0000 Keyboard/Keypad / Reserved/Undefined]
+offset=0x00C4; Report ID=5; Input; bits=0..503; size=8x63; Data, Variable, Absolute, No Wrap, Linear, Preferred State, No Null, Bit Field; collection=0xFF01:0000 Vendor Defined 0xFF01 / Usage 0x0000; usages=[0xFF01:0000 Vendor Defined 0xFF01 / Usage 0x0000]
+offset=0x00C8; Report ID=5; Output; bits=0..503; size=8x63; Data, Variable, Absolute, No Wrap, Linear, Preferred State, No Null, Non Volatile, Bit Field; collection=0xFF01:0000 Vendor Defined 0xFF01 / Usage 0x0000; usages=[0xFF01:0000 Vendor Defined 0xFF01 / Usage 0x0000]
+offset=0x00EB; Report ID=6; Input; bits=0..7; size=1x8; Data, Variable, Absolute, No Wrap, Linear, Preferred State, Null State, Bit Field; collection=0x000C:0001 Consumer / Consumer Control; usages=[0x000C:00E9 Consumer / Volume Increment; 0x000C:00EA Consumer / Volume Decrement; 0x000C:00E2 Consumer / Mute; 0x000C:00CD Consumer / Play/Pause; 0x000C:00B5 Consumer / Scan Next Track; 0x000C:00B6 Consumer / Scan Previous Track; 0x000C:00B3 Consumer / Fast Forward; 0x000C:00B7 Consumer / Stop]
+offset=0x0104; Report ID=7; Input; bits=0..2; size=1x3; Data, Variable, Absolute, No Wrap, Linear, Preferred State, No Null, Bit Field; collection=0x000B:0001 Telephony Device / Phone; usages=[0x000B:0020 Telephony Device / Hook Switch; 0x000B:0021 Telephony Device / Flash; 0x000B:002F Telephony Device / Phone Mute]
+offset=0x010A; Report ID=7; Input; bits=3..7; size=5x1; Constant, Variable, Absolute, No Wrap, Linear, Preferred State, No Null, Bit Field; collection=0x000B:0001 Telephony Device / Phone; no local usages
+offset=0x0134; Report ID=7; Output; bits=0..14; size=1x15; Data, Variable, Absolute, No Wrap, Linear, Preferred State, No Null, Non Volatile, Bit Field; collection=0x000B:0001 Telephony Device / Phone; usages=[0x0008:0008 LED / Do Not Disturb; 0x0008:0017 LED / Off-Hook; 0x0008:0018 LED / Ring; 0x0008:0019 LED / Message Waiting; 0x0008:001A LED / Data Mode; 0x0008:001E LED / Speaker; 0x0008:001F LED / Headset; 0x0008:0020 LED / Hold; 0x0008:0021 LED / Microphone; 0x0008:0022 LED / Coverage; 0x0008:0023 LED / Night Mode; 0x0008:0024 LED / Send Calls; 0x0008:0025 LED / Call Pickup; 0x0008:0026 LED / Conference; 0x0008:0009 LED / Mute]
+offset=0x013A; Report ID=7; Output; bits=15..15; size=1x1; Constant, Variable, Absolute, No Wrap, Linear, Preferred State, No Null, Non Volatile, Bit Field; collection=0x000B:0001 Telephony Device / Phone; no local usages
+
+Parser validation: PASS (317 bytes consumed, balanced collections, valid report layouts)

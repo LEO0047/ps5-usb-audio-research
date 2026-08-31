@@ -1,0 +1,1 @@
+77484 _coreaudiod /System/Library/ /System/Library/Audio/Plug-Ins/usbaudio.bundle/Contents/MacOS/usbaudiod

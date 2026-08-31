@@ -1,0 +1,17 @@
+b0c299b01927dea01089de3a03f063c7c70eeda410f1fcec4aa46f2e263ba664  ./README.md
+d5f5d4ace6a28bba9555597ca328db7b0845b27ff0ef8ebc5e6fad14416bc0d5  ./m16-hid-report-fetch.log
+091fc6f60b0cc2aee464946e107be0874c9fe3b81241b0272b160948ecfd6768  ./m16-hid-report-hex.txt
+69e9bff7e6977338b7d095ba143df9d30e8a4f490f81772110e20a754ccdef0e  ./m16-hid-report-parsed.txt
+e746d77ff0299b06cf43c21a95526c768bc6240b1e4d438109256627ac95503e  ./m16-hid-report.bin
+51308c59b302888e915fa9cc02f810aaedd3a0a7d94b1b0837bd36a53ab8bf4f  ./m16-hidutil-device.txt
+7545de5a612f4af2cce34bbdbf90e5f7e8a4a7a461fd72e5cab535c991224220  ./m16-hidutil-keyboards.txt
+e26a9e3904144edfd38c8174dd8f8dfa41cf21344f13a530608064f53be88870  ./m16-host-sw-vers.txt
+5b8b8a3873a862d7202e188c05c19908ff48851bc5e96991da59971b77779ebc  ./m16-host-uname.txt
+b2e996d653b602a8db6f4f73be599493a4ca6f9595d25f8ca7d99c4757d57a5b  ./m16-ioreg-apple-usb-audio-control.txt
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  ./m16-ioreg-apple-usb-audio-engine.txt
+dd500f0d3d5f66c51e266410a2c1026e165aed4f2bc1f2bf93ddaafac116d4eb  ./m16-ioreg-host-devices.txt
+24ad9dfb8c767cf7c60d3b30facc02dd7bc41002f3039b3173a5b37210d1af5b  ./m16-ioreg-host-interfaces.txt
+fcb016ffbbfc13e30e275e356bc8368b8f301f1bcf2921cdb9fae17d4945b198  ./m16-system-profiler-audio.txt
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  ./m16-system-profiler-usb.txt
+58259b08d9df4d59c481125f4d2e33d5d2ed1df2339d90b3039798975fb13c5d  ./m16-usb-descriptor.txt
+4ad2728be0193971d3a8319540a289a6fdacdee55ba38d3e5d57a9b4d0bc8d5f  ./m16-usbaudiod-process.txt
